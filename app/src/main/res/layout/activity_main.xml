@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="30dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--TextView para el titulo-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ROOM - RETROFIT"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        />
+
+    <!--EditText para el placeholder-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el ID para la consulta"
+        android:id="@+id/txtID"
+        android:layout_marginTop="20dp"
+        />
+
+    <!--Boton para la consulta-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnConsultar"
+        android:text="Consultar"
+        android:layout_marginTop="20dp"
+        />
+
+    <!--TextView para mostrar el resultado | luego colocamos librerias de RETROFIT-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtResultado"
+        android:layout_marginTop="20dp"
+        android:text="Resultado de la consulta:"
+        />
+
+    <!--Boton para la consulta-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGrabar"
+        android:text="Grabar Post"
+        android:layout_marginTop="20dp"
+        />
+
+    <!--Boton para que lleva a otra pantalla con los datos listados-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnListar"
+        android:text="Listar"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>
